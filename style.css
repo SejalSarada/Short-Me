@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    background-color: rgb(10, 4, 100);
+    padding-left: 4.7em;
+    padding-right: 4em;
+    padding-top: 2.3em;
+}
+.Header a{
+    text-decoration: none;
+}
+.Header a:visited{
+    color:#f3842f;
+}
+.Header{
+    color:#f3842f;
+    font-size: 1.6em;
+}
+.heading1{
+    display: inline-block;
+    margin-right:0.3em;
+    font-weight: 200;
+}
+.heading2{
+    font-weight: 100;
+}
+.heading3{
+    letter-spacing: 0.01vh;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.Header hr{
+    height:2px;
+    color: #f3842f;
+}
+.heading-gap{
+    height:0.5em;
+}
+.heading-gap2{
+    height:1.8em;
+    border-bottom: 0.1ch solid #f3842f;
+}
+.body-top-gap{
+    height:9em;
+}
+.body{
+    margin:0 14.5em;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    /*font-weight: 300*/;
+}
+.ending{
+    background-color: rgb(11, 11, 49);
+    color: whitesmoke;
+    height:10.6em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.ending{
+    position:relative;
+}
+.devsoc-logo{
+    position: absolute;
+    top:2.7em;
+    left:9rem;
+}
+.icons ul{
+    padding:0;
+    list-style: none;
+}
+.icons li{
+    display: inline-block;
+}
+.icons{
+    position:absolute;
+    top:2.7em;
+    right:11rem;
+}
+.icon{
+    padding:0 0.5em;
+}
+.footer{
+    color: white;
+    text-align: center;
+    position:relative;
+    top: 6.9em;
+    text-align: center;
+}
